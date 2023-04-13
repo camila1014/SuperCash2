@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C42FAB2993F26B008486FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FAA2993F26B008486FD /* AppDelegate.swift */; };
+		F1C42FAD2993F26B008486FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FAC2993F26B008486FD /* SceneDelegate.swift */; };
+		F1C42FB22993F26B008486FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C42FB02993F26B008486FD /* Main.storyboard */; };
+		F1C42FB42993F26E008486FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C42FB32993F26E008486FD /* Assets.xcassets */; };
+		F1C42FB72993F26E008486FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C42FB52993F26E008486FD /* LaunchScreen.storyboard */; };
+		F1C42FC22993F26F008486FD /* Photo_Scavenger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FC12993F26F008486FD /* Photo_Scavenger_HuntTests.swift */; };
+		F1C42FCC2993F26F008486FD /* Photo_Scavenger_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FCB2993F26F008486FD /* Photo_Scavenger_HuntUITests.swift */; };
+		F1C42FCE2993F26F008486FD /* Photo_Scavenger_HuntUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FCD2993F26F008486FD /* Photo_Scavenger_HuntUITestsLaunchTests.swift */; };
+		F1C42FE02993FBB4008486FD /* HuntDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FDF2993FBB4008486FD /* HuntDetailViewController.swift */; };
+		F1C42FE22993FBF4008486FD /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FE12993FBF4008486FD /* AnnotationView.swift */; };
+		F1C42FE42993FC31008486FD /* Hunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FE32993FC31008486FD /* Hunt.swift */; };
+		F1C42FE62993FC75008486FD /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FE52993FC75008486FD /* ComposeViewController.swift */; };
+		F1C42FE82993FC92008486FD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FE72993FC92008486FD /* ListViewController.swift */; };
+		F1C42FEA2993FCC3008486FD /* HuntCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C42FE92993FCC3008486FD /* HuntCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C42FBE2993F26F008486FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C42F9F2993F26A008486FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C42FA62993F26B008486FD;
+			remoteInfo = "Photo Scavenger Hunt";
+		};
+		F1C42FC82993F26F008486FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C42F9F2993F26A008486FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C42FA62993F26B008486FD;
+			remoteInfo = "Photo Scavenger Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C42FA72993F26B008486FD /* SuperCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C42FAA2993F26B008486FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1C42FAC2993F26B008486FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1C42FB12993F26B008486FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C42FB32993F26E008486FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C42FB62993F26E008486FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C42FB82993F26E008486FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C42FBD2993F26F008486FD /* SuperCashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C42FC12993F26F008486FD /* Photo_Scavenger_HuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Scavenger_HuntTests.swift; sourceTree = "<group>"; };
+		F1C42FC72993F26F008486FD /* SuperCashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C42FCB2993F26F008486FD /* Photo_Scavenger_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Scavenger_HuntUITests.swift; sourceTree = "<group>"; };
+		F1C42FCD2993F26F008486FD /* Photo_Scavenger_HuntUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Scavenger_HuntUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1C42FDF2993FBB4008486FD /* HuntDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntDetailViewController.swift; sourceTree = "<group>"; };
+		F1C42FE12993FBF4008486FD /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		F1C42FE32993FC31008486FD /* Hunt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hunt.swift; sourceTree = "<group>"; };
+		F1C42FE52993FC75008486FD /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		F1C42FE72993FC92008486FD /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F1C42FE92993FCC3008486FD /* HuntCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C42FA42993F26B008486FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C42FBA2993F26F008486FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C42FC42993F26F008486FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C42F9E2993F26A008486FD = {
+			isa = PBXGroup;
+			children = (
+				F1C42FA92993F26B008486FD /* SuperCash */,
+				F1C42FC02993F26F008486FD /* Photo Scavenger HuntTests */,
+				F1C42FCA2993F26F008486FD /* Photo Scavenger HuntUITests */,
+				F1C42FA82993F26B008486FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C42FA82993F26B008486FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FA72993F26B008486FD /* SuperCash.app */,
+				F1C42FBD2993F26F008486FD /* SuperCashTests.xctest */,
+				F1C42FC72993F26F008486FD /* SuperCashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C42FA92993F26B008486FD /* SuperCash */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FDE2993FB62008486FD /* Detail */,
+				F1C42FDD2993FB55008486FD /* Models */,
+				F1C42FDC2993FB48008486FD /* Compose */,
+				F1C42FDA2993FB1E008486FD /* List */,
+				F1C42FAA2993F26B008486FD /* AppDelegate.swift */,
+				F1C42FAC2993F26B008486FD /* SceneDelegate.swift */,
+				F1C42FB02993F26B008486FD /* Main.storyboard */,
+				F1C42FB32993F26E008486FD /* Assets.xcassets */,
+				F1C42FB52993F26E008486FD /* LaunchScreen.storyboard */,
+				F1C42FB82993F26E008486FD /* Info.plist */,
+			);
+			path = SuperCash;
+			sourceTree = "<group>";
+		};
+		F1C42FC02993F26F008486FD /* Photo Scavenger HuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FC12993F26F008486FD /* Photo_Scavenger_HuntTests.swift */,
+			);
+			path = "Photo Scavenger HuntTests";
+			sourceTree = "<group>";
+		};
+		F1C42FCA2993F26F008486FD /* Photo Scavenger HuntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FCB2993F26F008486FD /* Photo_Scavenger_HuntUITests.swift */,
+				F1C42FCD2993F26F008486FD /* Photo_Scavenger_HuntUITestsLaunchTests.swift */,
+			);
+			path = "Photo Scavenger HuntUITests";
+			sourceTree = "<group>";
+		};
+		F1C42FDA2993FB1E008486FD /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FE72993FC92008486FD /* ListViewController.swift */,
+				F1C42FE92993FCC3008486FD /* HuntCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F1C42FDC2993FB48008486FD /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FE52993FC75008486FD /* ComposeViewController.swift */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		F1C42FDD2993FB55008486FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FE32993FC31008486FD /* Hunt.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1C42FDE2993FB62008486FD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F1C42FDF2993FBB4008486FD /* HuntDetailViewController.swift */,
+				F1C42FE12993FBF4008486FD /* AnnotationView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C42FA62993F26B008486FD /* SuperCash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C42FD12993F26F008486FD /* Build configuration list for PBXNativeTarget "SuperCash" */;
+			buildPhases = (
+				F1C42FA32993F26B008486FD /* Sources */,
+				F1C42FA42993F26B008486FD /* Frameworks */,
+				F1C42FA52993F26B008486FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCash;
+			productName = "Photo Scavenger Hunt";
+			productReference = F1C42FA72993F26B008486FD /* SuperCash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C42FBC2993F26F008486FD /* SuperCashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C42FD42993F26F008486FD /* Build configuration list for PBXNativeTarget "SuperCashTests" */;
+			buildPhases = (
+				F1C42FB92993F26F008486FD /* Sources */,
+				F1C42FBA2993F26F008486FD /* Frameworks */,
+				F1C42FBB2993F26F008486FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C42FBF2993F26F008486FD /* PBXTargetDependency */,
+			);
+			name = SuperCashTests;
+			productName = "Photo Scavenger HuntTests";
+			productReference = F1C42FBD2993F26F008486FD /* SuperCashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1C42FC62993F26F008486FD /* SuperCashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C42FD72993F26F008486FD /* Build configuration list for PBXNativeTarget "SuperCashUITests" */;
+			buildPhases = (
+				F1C42FC32993F26F008486FD /* Sources */,
+				F1C42FC42993F26F008486FD /* Frameworks */,
+				F1C42FC52993F26F008486FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C42FC92993F26F008486FD /* PBXTargetDependency */,
+			);
+			name = SuperCashUITests;
+			productName = "Photo Scavenger HuntUITests";
+			productReference = F1C42FC72993F26F008486FD /* SuperCashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C42F9F2993F26A008486FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F1C42FA62993F26B008486FD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F1C42FBC2993F26F008486FD = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F1C42FA62993F26B008486FD;
+					};
+					F1C42FC62993F26F008486FD = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F1C42FA62993F26B008486FD;
+					};
+				};
+			};
+			buildConfigurationList = F1C42FA22993F26A008486FD /* Build configuration list for PBXProject "SuperCash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C42F9E2993F26A008486FD;
+			productRefGroup = F1C42FA82993F26B008486FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C42FA62993F26B008486FD /* SuperCash */,
+				F1C42FBC2993F26F008486FD /* SuperCashTests */,
+				F1C42FC62993F26F008486FD /* SuperCashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C42FA52993F26B008486FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C42FB72993F26E008486FD /* LaunchScreen.storyboard in Resources */,
+				F1C42FB42993F26E008486FD /* Assets.xcassets in Resources */,
+				F1C42FB22993F26B008486FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C42FBB2993F26F008486FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C42FC52993F26F008486FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C42FA32993F26B008486FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C42FAB2993F26B008486FD /* AppDelegate.swift in Sources */,
+				F1C42FE22993FBF4008486FD /* AnnotationView.swift in Sources */,
+				F1C42FAD2993F26B008486FD /* SceneDelegate.swift in Sources */,
+				F1C42FE02993FBB4008486FD /* HuntDetailViewController.swift in Sources */,
+				F1C42FE42993FC31008486FD /* Hunt.swift in Sources */,
+				F1C42FE82993FC92008486FD /* ListViewController.swift in Sources */,
+				F1C42FE62993FC75008486FD /* ComposeViewController.swift in Sources */,
+				F1C42FEA2993FCC3008486FD /* HuntCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C42FB92993F26F008486FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C42FC22993F26F008486FD /* Photo_Scavenger_HuntTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C42FC32993F26F008486FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C42FCC2993F26F008486FD /* Photo_Scavenger_HuntUITests.swift in Sources */,
+				F1C42FCE2993F26F008486FD /* Photo_Scavenger_HuntUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C42FBF2993F26F008486FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C42FA62993F26B008486FD /* SuperCash */;
+			targetProxy = F1C42FBE2993F26F008486FD /* PBXContainerItemProxy */;
+		};
+		F1C42FC92993F26F008486FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C42FA62993F26B008486FD /* SuperCash */;
+			targetProxy = F1C42FC82993F26F008486FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1C42FB02993F26B008486FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C42FB12993F26B008486FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C42FB52993F26E008486FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C42FB62993F26E008486FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1C42FCF2993F26F008486FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1C42FD02993F26F008486FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C42FD22993F26F008486FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo Scavenger Hunt/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camilaaichele.Photo-Scavenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C42FD32993F26F008486FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo Scavenger Hunt/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camilaaichele.Photo-Scavenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1C42FD52993F26F008486FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camilaaichele.Photo-Scavenger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperCash";
+			};
+			name = Debug;
+		};
+		F1C42FD62993F26F008486FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camilaaichele.Photo-Scavenger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperCash";
+			};
+			name = Release;
+		};
+		F1C42FD82993F26F008486FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camilaaichele.Photo-Scavenger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photo Scavenger Hunt";
+			};
+			name = Debug;
+		};
+		F1C42FD92993F26F008486FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F89ZK73HYQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.camilaaichele.Photo-Scavenger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photo Scavenger Hunt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C42FA22993F26A008486FD /* Build configuration list for PBXProject "SuperCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C42FCF2993F26F008486FD /* Debug */,
+				F1C42FD02993F26F008486FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C42FD12993F26F008486FD /* Build configuration list for PBXNativeTarget "SuperCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C42FD22993F26F008486FD /* Debug */,
+				F1C42FD32993F26F008486FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C42FD42993F26F008486FD /* Build configuration list for PBXNativeTarget "SuperCashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C42FD52993F26F008486FD /* Debug */,
+				F1C42FD62993F26F008486FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C42FD72993F26F008486FD /* Build configuration list for PBXNativeTarget "SuperCashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C42FD82993F26F008486FD /* Debug */,
+				F1C42FD92993F26F008486FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C42F9F2993F26A008486FD /* Project object */;
+}
